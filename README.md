@@ -54,6 +54,30 @@ If using Rails, use ["bootstrap-wysihtml5-rails"](https://github.com/Nerian/boot
 
 -   [http://waxolunist.github.io/bootstrap3-wysihtml5-bower/](http://waxolunist.github.io/bootstrap3-wysihtml5-bower/)
 
+For use with stealjs add to config something like this:
+
+```javascript
+System.config({
+  paths: {
+    ...
+    "bootstrap": "path/to/bootstrap.min.js",
+    "bootstrap-wysihtml5": "path/to/bootstrap3-wysiwyg/dist/bootstrap3-wysihtml5.all.min.js"
+  },
+  map: {
+    "can/util/util": "can/util/jquery/jquery",
+    "jquery/jquery": "jquery"
+  },
+  meta: {
+    "bootstrap-wysihtml5": {
+      format: "global",
+      deps: [
+        'jquery',
+        'bootstrap',
+        "path/to/bootstrap3-wysiwyg/dist/bootstrap3-wysihtml5.min.css!"
+      ]
+    }
+```
+
 For use with requirejs see the examples in the repo.
 
 ### Files to reference
