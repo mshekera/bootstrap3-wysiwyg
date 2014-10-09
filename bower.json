@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap3-wysihtml5-bower",
-  "version": "0.3.4-wip",
+  "name": "bootstrap3-wysiwyg-stealjs",
+  "version": "0.3.5",
   "main": [
     "dist/bootstrap3-wysihtml5.min.css",
     "dist/bootstrap3-wysihtml5.min.js"
@@ -12,11 +12,11 @@
     "handlebars": "~1.3.0",
     "jquery": ">=2.1"
   },
-  "homepage": "https://github.com/Waxolunist/bootstrap3-wysihtml5-bower",
+  "homepage": "https://github.com/mshekera/bootstrap3-wysiwyg",
   "authors": [
     "Christian Sterzl <christian.sterzl@gmail.com>"
   ],
-  "description": "Bootstrap 3 compatible wysiwyg editor",
+  "description": "Bootstrap 3 compatible wysiwyg editor (stealjs version)",
   "keywords": [
     "bootstrap",
     "wysiwyg"
