@@ -61,7 +61,7 @@ System.config({
   paths: {
     ...
     "bootstrap": "path/to/bootstrap.min.js",
-    "bootstrap-wysihtml5": "path/to/bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.all.min.js"
+    "bootstrap-wysihtml5": "path/to/bootstrap3-wysiwyg-stealjs/dist/bootstrap3-wysihtml5.all.min.js"
   },
   map: {
     "can/util/util": "can/util/jquery/jquery",
@@ -73,7 +73,7 @@ System.config({
       deps: [
         'jquery',
         'bootstrap',
-        "path/to/bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.min.css!"
+        "path/to/bootstrap3-wysiwyg-stealjs/dist/bootstrap3-wysihtml5.min.css!"
       ]
     }
 ```
